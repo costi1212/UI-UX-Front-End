@@ -1,0 +1,10 @@
+<p-menubar>
+  <ng-template pTemplate="start">
+    <img src="./assets/gamebaron-logo.png" height="50" class="mr-2"/>
+  </ng-template>
+  <ng-template pTemplate="end" class="flex align-content-start flex-wrap card-container">
+    <input class="inline" type="text" pInputText placeholder="Search" style="margin-right: 20px"/>
+    <button label="Sign In/Register" class="inline" pButton icon="pi pi-user" style="margin-right: 10px" (click)="signInClick($event)"></button>
+    <button label="Cart" class="inline" pButton icon="pi pi-shopping-cart"></button>
+  </ng-template>
+</p-menubar>
